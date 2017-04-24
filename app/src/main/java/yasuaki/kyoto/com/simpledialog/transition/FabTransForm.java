@@ -33,8 +33,8 @@ public class FabTransForm extends TransitionSet {
             .setDuration(200)
             .setOrdering(ORDERING_TOGETHER)
             .addTransition(new CircularRevealTransition(Visibility.MODE_IN, startRadius))
-            .addTransition(new ChangeTransform().addTarget(R.id.weapons))
-            .addTransition(new Fade(Fade.IN).addTarget(R.id.weapons));
+            .addTransition(new ChangeTransform().addTarget(R.id.neat_weapons))
+            .addTransition(new Fade(Fade.IN).addTarget(R.id.neat_weapons));
 
         addTransition(fabTransition)
             .addTransition(toolsTransition);
@@ -52,8 +52,8 @@ public class FabTransForm extends TransitionSet {
             .setDuration(200)
             .setOrdering(ORDERING_TOGETHER)
             .addTransition(new CircularRevealTransition(Visibility.MODE_OUT, startRadius))
-            .addTransition(new ChangeTransform().addTarget(R.id.weapons))
-            .addTransition(new Fade(Fade.OUT).addTarget(R.id.weapons));
+            .addTransition(new ChangeTransform().addTarget(R.id.neat_weapons))
+            .addTransition(new Fade(Fade.OUT).addTarget(R.id.neat_weapons));
 
         addTransition(toolsTransition)
             .addTransition(fabTransition);

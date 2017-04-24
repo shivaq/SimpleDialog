@@ -1,18 +1,28 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
 
-    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+  <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
 
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowIsFloating">false</item>
-        <item name="android:windowBackground">@color/colorAccent</item>
-    </style>
+    <!-- Used for the buttons -->
+    <item name="colorAccent">@color/deep_blue_a02</item>
+    <!-- Used for the title and text -->
+    <item name="android:textColorPrimary">@color/amber_80b</item>
+
+    <!-- Used for the background 円状に広がる時の、塗りつぶされる背景。
+    ダイアログの背景ではなく。-->
+    <!--<item name="android:background">@color/teal_500</item>-->
+    <!--<item name="android:windowBackground">@color/deep_blue_a02</item>-->
+    <item name="android:windowIsFloating">false</item>
+  </style>
+
+
+
 
 </resources>
